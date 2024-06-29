@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(black5.jpg) no-repeat center center/cover;
+}
+
+header {
+    font-size: 200px;
+    margin-top: 30px; 
+    text-align: center;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(167, 141, 167);
+    letter-spacing: 45px;
+}
+
+header h1 {
+    font-family: impact;
+    background-image: url(EV.jpg);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 80px;
+    color: rgb(51, 51, 84);
+    margin-bottom: 20px;
+}
+
+nav ul button {
+    width: 400px;
+    height: 170px;
+    font-size: 70px;
+    display: inline-block;
+    padding: 20px 25px;
+    margin: 90px 120px ;
+    color: wheat;
+    background-color: black;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav button:hover {
+    border: 2px solid white;
+    transition: 1s;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    width: 35%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 80%;
+    border-radius: 150px;
+}
+
+.btn {
+    width: 300px;
+    height: 150px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 2600px;
+    margin-bottom: 300px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: blue;
+    background-color: grey;
+    transition: 1s;
+    border: 2px solid whitesmoke;
+}
+
+.gallery-container .gallery-item img:hover{
+    font-size: smaller;
+    color: aquamarine;
+
+}
+a {
+    color: whitesmoke;
+    font-size: 45px;
+    padding: 20px 20px;
+    text-decoration: none;
+    border: 2px solid wheat;
+    width: 400px;
+    height: 300px;
+    margin-left: 1900px;
+    margin-top: 2000px;
+    border-radius: 20px;
+
+ }

@@ -1,0 +1,77 @@
+/* Container styling */
+.payment-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(229, 35, 35);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input field styling */
+  .payment-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgb(29, 3, 3);
+    border-radius: 4px;
+  }
+  
+  /* Select box styling */
+  .payment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Submit button styling */
+  .payment-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styling for a responsive design */
+  @media (max-width: 600px) {
+    .payment-container {
+      width: 90%;
+    }
+  }
+  body{
+    background-image: url('background4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 30px;
+    text-align: center;
+    border-radius: 25px;
+    color: rgb(233, 226, 226);
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.button:hover{
+    background: rgb(0, 192, 226);
+    transition: 0.5s;
+}
+.button:hover{
+    color: white;
+}
